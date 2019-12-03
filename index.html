@@ -9,45 +9,76 @@
     </head>
     <body>
         <main id="container">
-        <h1>Explaining All</h1>
-        <h3>www.youtube.com | ServiceRoom</h3>
+
+        <h1>Carlos Domínguez</h1>
+        <h3>Web Developer</h3>
         <hr>
         <div></div>
-        <h4>Experience General</h4>
-        <label>CompanyNo1</label>
-        <span>Abril 3017 - Diciembre 307</span>
-        <label>Puesto</label>
-        <p>· Uno <br>· Dos blah blah <br>· Tres blah blah</p>
-        <label>CompanyNo2</label>
-        <span>Enero 3014 - Marzo 2043</span>
-        <label>Puesto</label>
-        <p>· Uno <br>· Dos blah blah <br>· Tres blah blah</p>
-        <label>CompanyNo3</label>
-        <label>Puesto</label>
-        <span>Julio 2010 - Junio 2020</span>
-        <p>· Uno <br>· Dos blah blah <br>· Tres blah blah</p>
+
+        <h4>Experiencia Laboral</h4>
+
+        <label>MundoEstudiante</label>
+        <span>Septiembre 2019 - Actual</span>
+        <label>Profesor de Programación</label>
+        <p>· Reforzar habilidades de desarrollo de aplicaciones en estudiantes.
+        <br>· Lenguajes trabajados (Html, Css, Js, C, Java, Python)
+        </p>
+
+        <label>Min. Educ. Argentina</label>
+        <span>Marzo 2018 - Julio 2019</span>
+        <label>Desarrollador Web</label>
+        <p>· Profesor de programación en escuelas de Buenos Aires.
+        <br>· Desarrollar aplicaciones, sistemas de gestión y repositorios en proyectos educativos.
+        <br>· Lenguajes trabajados (Scratch, AppInventor, Arduino, Python)
+        </p>
+
+        <label>HiperPBX</label>
+        <label>Desarrollador Web</label>
+        <span>Septiembre 2013 - Octubre 2015</span>
+        <p>· Creación de módulos y adaptación de sistemas de gestión web, para clientes de la empresa.
+        <br>· Desarrollo de aplicaciones en centrales telefónicas.
+        <br>· HelpDesk para resolución de inconvenientes en toda América.
+        <br>· Lenguajes trabajados (Html, Css, Js, Php, MySql, Bash, Asterisk).
+        </p>
+
         <hr>
+
         <h4>Skills</h4>
-        <h4>Educacion</h4>
+        <h4>Educación</h4>
         <aside>
-            <code>PHP</code><a></a>
-            <code>Java</code><a></a>
-            <code>C</code><a></a>
-            <code>Python</code><a></a>
-            <code>Js - Em6</code><a></a>
-            <code>MySql</code><a></a>
-            <code>MongoDb</code><a></a>
-            <code>NodeJs</code><a></a>
-            <code>Html</code><a></a>
-            <code>Css</code><a></a>
-            <code>Angular</code><a></a>
-            <label>Ingeniero de Software</label>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+            <code></code><a></a>
+
+            <label>Ing. Software</label>
             <p>Universidad Rafael Urdaneta</p>
             <label>Bachiller en Ciencias</label>
             <p>Colegio Bellas Artes</p>
         </aside>
+
         <hr>
-        <footer><h6>+654987651 | Madrid, España | mail@mail.com | pindfjkdadas.com/dfsdfsdf</h6></footer>
+
+        <footer><h6>+34634226190 | Madrid, España | carlosdominguez3@outlook.com</h6></footer>
+
     </main>
+
+    <script>
+
+        const programmingSkills = [["Php", 100],["Java", 80],["C", 70],["Python", 80],["Js/Em6", 90],["MySql", 90],["MongoDb", 70],["NodeJs", 60],["Html", 100],["Css", 90],["Angular", 70]]
+        
+        for(let i=0; i<programmingSkills.length; i++) {
+            document.getElementsByTagName("code")[i].innerText = programmingSkills[i][0],
+            document.getElementsByTagName("a")[i].style.width = programmingSkills[i][1]+"%"
+        }
+        
+    </script>
 </body>
 </html>
